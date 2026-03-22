@@ -23,6 +23,7 @@ const SearchBar = ({ onSubmit }) => {
         <input
           className={styles.input}
           type="text"
+          name="query" 
           value={query}
           onChange={e => setQuery(e.target.value)}
           autoComplete="off"

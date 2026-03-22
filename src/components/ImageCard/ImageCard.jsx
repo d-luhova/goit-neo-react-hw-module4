@@ -9,5 +9,6 @@ export default function ImageCard({ image, onClick }) {
         alt={image.alt_description}
       />
     </div>
+    
   );
 }

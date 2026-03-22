@@ -27,7 +27,7 @@ const App = () => {
 
         const data = await fetchImages(query, page);
 
-        setImages(prev => [...prev, ...data.results]);
+        setImages(prev => [...prev, ...data.results.slice(0, 10)]);
       } catch {
         setError(true);
       } finally {

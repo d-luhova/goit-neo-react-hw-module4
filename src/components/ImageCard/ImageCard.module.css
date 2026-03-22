@@ -4,6 +4,8 @@
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s;
+  width: 200px;
+  height: 150px;    
 }
 
 .card:hover {
@@ -12,6 +14,7 @@
 
 .image {
   width: 100%;
-  display: block;
+  height: 100%;
   object-fit: cover;
+  display: block;
 }

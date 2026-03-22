@@ -1,0 +1,19 @@
+.overlay {
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  outline: none;
+  max-width: 90%;
+  max-height: 90%;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+}
